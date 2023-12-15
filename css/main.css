@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+:root {
+  --colour: #eef0f2;
+  --colour1: #f0ece3;
+  --colour2: #dfd3c3;
+  --colour3: #c7b198;
+  --colour4: #596e79;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+#indexCarousel {
+  background-color: rgba(65, 65, 65, 0.4);
+}
+
+nav,
+nav a {
+  background-color: var(--colour1);
+  color: var(--colour4);
+  font-family: "Karla", sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+nav a:hover {
+  color: var(--colour3);
+}
+
+
+h5 {
+  font-family: "Abril Fatface", cursive;
+}
+
+.carList {
+  height: 100px;
+  padding-top: 2%;
+}
+
+#details {
+  border: 5px solid #c7b198;
+  border-radius: 5px;
+  box-shadow: 5px 5px #888888;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+#details > div {
+  padding: 10px;
+  font-family: "Karla", sans-serif;
+}
+
+#carDetail {
+  margin-top: 80px;
+  padding: 20px;
+  border: 5px solid #c7b198;
+  border-radius: 5px;
+  box-shadow: 5px 5px #888888;
+}
+
+/* detail pages */
+h4 {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+}
+
+div.col img {
+  border: 2px solid var(--colour2);
+  margin: 10px;
+}
+
+figcaption p {
+  color: var(--colour1);
+  margin-bottom: -25px;
+  width: 40%;
+  margin-left: 30%;
+  background-color: rgba(65, 65, 65, 0.4);
+}
+
+div p {
+  font-family: "Karla", sans-serif;
+}
+
+#firImg {
+  margin-left: 20%;
+}
+
+#nav-profile-tab,
+#nav-home-tab {
+  color: var(--colour3);
+}
+
+#nav-profile-tab:hover,
+#nav-home-tab:hover {
+  color: #96794d;
+}
+
+.red:hover {
+    color: red; 
+}
+
+.green:hover {
+    color: green;
+}
+.blue:hover {
+    color: blue;
+}
+.purple:hover {
+    color: purple;
+}
+.brown:hover {
+    color: brown;
+}
+.btn {
+  background-color: var(--colour2);
+}
+
+.btn-block {
+    background-color: #c2b29d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-block:hover {
+        background-color: #96856e;
+    }
+
+/* footer  */
+footer {
+  background-color: var(--colour1);
+  color: var(--colour4);
+}
+
+footer a {
+  color: var(--colour4);
+}
+
+footer a:hover {
+  color: var(--colour3);
+  text-decoration: none;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-indicators li {
+  background-color: var(--colour3) !important;
+}

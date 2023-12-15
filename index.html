@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automoblox® | red</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/automoblox_logo.png" alt="logo" style="height: 50px" />
+            </a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="collapse navbar-collapse" id="navbarText">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link red" href="red.html">C9 - RED</a>
+                </li>
+                <li class="nav-item">
+                    <!-- Add the "green" class to the Green navigation item -->
+                    <a class="nav-link green" href="green.html">T9 - Green</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link blue" href="blue.html">S9 - Blue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link purple" href="purple.html">X9 - Purple</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link brown" href="brown.html">C9S - Brown</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header -->
+    <main class="container">
+        <h4 style="margin-top: 5%">GET YOUR FAVOURITE AUTOMOBLOX®</h4>
+        <br />
+        <div id="carousel-cars" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-cars" data-slide-to="0"></li>
+                <li data-target="#carousel-cars" data-slide-to="1"></li>
+                <li data-target="#carousel-cars" data-slide-to="2"></li>
+                <li data-target="#carousel-cars" data-slide-to="3"></li>
+                <li data-target="#carousel-cars" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <figure class="carousel-item active">
+                    <img src="img/c9_large.jpg"
+                         class="rounded mx-auto d-block"
+                         id="largeImg"
+                         alt="c9 red" />
+                    <figcaption class="carousel-caption">
+                        <p>C9 - RED</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <img src="img/t9_large.jpg"
+                         class="rounded mx-auto d-block"
+                         alt="c9r red" />
+                    <figcaption class="carousel-caption">
+                        <p>T9 - GREEN</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <img src="img/s9_large.jpg"
+                         class="rounded mx-auto d-block"
+                         alt="s9 BLUE" />
+                    <figcaption class="carousel-caption">
+                        <p>S9 - BLUE</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <img src="img/x9_large.jpg"
+                         class="rounded mx-auto d-block"
+                         alt="x9 PURPLE" />
+                    <figcaption class="carousel-caption">
+                        <p>X9 - PURPLE</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-item">
+                    <img src="img/c9s_large.jpg"
+                         class="rounded mx-auto d-block"
+                         alt="c9s BROWN" />
+                    <figcaption class="carousel-caption">
+                        <p>C9S - BROWN</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <!--.carousel-inner-->
+        </div>
+        <div>
+            <ul class="list-inline text-center align-items-center carList">
+                <li class="list-inline-item">
+                    <a href="red.html"><img src="img/c9_small.jpg" alt="c9" /></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="green.html"><img src="img/t9_small.jpg" alt="t9" /></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="blue.html"><img src="img/s9_small.jpg" alt="s9" /></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="purple.html"><img src="img/x9_small.jpg" alt="x9" /></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="brown.html"><img src="img/c9s_small.jpg" alt="c9s" /></a>
+                </li>
+            </ul>
+        </div>
+        <h4 class="row">Information</h4>
+        <div class="row" id="details">
+            <div class="col col-md-4 col-12">
+                <h5>About us</h5>
+                <br />
+                Automoblox is a brand that epitomizes innovation and craftsmanship.
+                Our commitment to excellence is reflected in each meticulously
+                designed toy car. From the regal X9 Purple to the serene S9 Blue,
+                every model showcases a perfect blend of style and precision. We
+                pride ourselves on delivering visually appealing and finely crafted
+                toy cars, making Automoblox the ultimate choice for enthusiasts and
+                collectors alike.
+            </div>
+            <div class="col col-md-4 col-12">
+                <h5>How it works</h5>
+                <br />
+                Automoblox revolutionizes play with its innovative modular concept,
+                offering toy cars that go beyond traditional models. These vehicles
+                feature interchangeable parts—chassis, body, wheels, and connectors—that
+                users can assemble and disassemble effortlessly. The magnetic connectors
+                ensure secure fits, allowing for seamless transformations and creative
+                exploration. This unique assembly process promotes creativity and fine
+                motor skills, making Automoblox an engaging and educational experience.
+            </div>
+            <div class="col col-md-4 col-12">
+                <h5>Milestones</h5>
+                <br />
+                Throughout our journey, the brand has celebrated key milestones,
+                showcasing continuous growth and an expanding community of loyal customers.
+                As Automoblox continues to evolve, it remains a symbol of creativity,
+                durability, and excellence in the realm of toy vehicles.
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">
+            2081 - Interface Design - Georgian College | Fazil Abdulla Salam
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
